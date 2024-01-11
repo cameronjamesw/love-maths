@@ -15,9 +15,15 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
-
+/**
+ * The main game 'loop' called when the game is first loaded
+ * and after the users answer has been processed
+ */
 function runGame() {
 
+    // Create two random numbers between 1 and 25
+    num1 = Math.floor(Math.random() * 25) + 1;
+    num2 = Math.floor(Math.random() * 25) + 1;
 }
 
 function checkAnswer() {
